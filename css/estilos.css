@@ -262,7 +262,7 @@ padding-left: 10rem;
 #imgservicios3{
 padding-top: 3rem;
 padding-right: 10rem;
-margin-bottom: 3rem;
+margin-bottom: 3rem; 
 }
 
 
@@ -539,6 +539,27 @@ padding: 0;
 }
 }
 
+
+
+/* servicios ver responsive */
+/* .containerservicios {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.col-lg-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+} */
 
 
 
