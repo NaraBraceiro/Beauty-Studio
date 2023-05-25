@@ -167,10 +167,6 @@ color:gray;
 margin-right: 0.5rem;
 }
 
-/* .container .row{
-margin-top: 90px;
-} */
-
 
 /* estilos de las imagenes page nosotros */
 #galerianosotros img{
@@ -188,60 +184,61 @@ border: 2px solid #c2dfe3;
 }
 
 /* Estilos page Servicios */
-.containerservicios .titulo1{
+/* .container .titulo1{
 height:100%;
 color: #5c6b73;
 padding: 40px;
 text-align: center;
 font-weight: 400;
 font-size: 2em;
-}
+} */
 
-.titulo2ss{
+.titulo2Coloracion{
 font-size: 1.5rem;
 color: #89b0ae;
 font-style: bold;
-margin-left: 20rem;
+margin-top: 4rem;
+margin-left: 18rem;
 }
 
 .textocoloracion{
 color:gray;
-margin-left: 14rem;
+margin-left: 10rem;
 }
 
 .textocoloracion ul{
 list-style: none;
 }
 
-.titulo2Bss{
+.titulo2Belleza{
 font-size: 1.5rem;
 color: #89b0ae;
 font-style: bold;
-margin-top: 7rem;
-margin-right: 20rem;
+margin-top: 4rem;
+margin-right: 15rem;
 }
 
 .textobellezacapilar{
 color:gray;
 text-align: center;
-margin-right: 8rem;
+margin-right: 5rem;
 }
 
 .textobellezacapilar ul{
 list-style: none;
 }
 
-.titulo2Css{
+.titulo2Peinados{
 font-size: 1.5rem;
 color: #89b0ae;
 font-style: bold;
-margin-top:7rem;
+margin-top:5rem;
 margin-left: 20rem;
 }
 
 .textopeinados{
 color:gray;
-margin-left: 14rem;
+margin-left: 12rem;
 }
 
 .textopeinados ul{
@@ -250,18 +247,18 @@ list-style: none;
 
 /* Estilos imagenes page servicios */
 #imgservicios1{
-padding-top: 3rem;
-padding-right: 10rem;
+padding-top: 7.5rem;
+padding-right: 2rem;
 }
 
 #imgservicios2{
-padding-top: 3rem;
-padding-left: 10rem;
+padding-top: 2rem;
+padding-left: 8.5rem;
 }
 
 #imgservicios3{
-padding-top: 3rem;
-padding-right: 10rem;
+padding-top: 2rem;
+padding-right: 8.5rem;
 margin-bottom: 3rem; 
 }
 
@@ -269,15 +266,15 @@ margin-bottom: 3rem;
 
 
 /* Estilos page productos */
-.sectionTienda{
+/* .sectionTienda{
 margin-top: 40px;
 }
 
 .tienda{
 height:350px;
-width: 200px;
+width: 200px; */
 /* border: 2px solid #c2dfe3; */
-display: flex;
+/* display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
@@ -309,7 +306,7 @@ color:black;
 /* cards */
 .cards .card1{
 margin-left: 80px;
-}
+} */
 
 /* Estilos page Contacto */
 
@@ -562,4 +559,41 @@ padding: 0;
 } */
 
 
+/* EStilos Productos */
+.tituloproductos{
+    margin-top: 4rem;
+    margin-left: 12rem;
+font-size:1.5rem;
+color:#89b0ae
+}
+
+.textoproductos{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    color: #5c6b73;
+}
+
+.card-title{
+font-size: 1rem;
+color: #89b0ae;
+text-align: center;
+}
+
+.card-text{
+color: #5c6b73;
+font-size: 0.9em;
+}
+
+.card{
+width: 18rem;
+border:1px solid #89b0ae;
+/* margin-top: 2rem;
+padding-bottom: 0px; */
+}
+
+.cardtext{
+    font-size: 7px;
+}
 
