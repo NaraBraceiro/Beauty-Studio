@@ -52,6 +52,7 @@ text-decoration: none;
 color:black;
 }
 
+
 .maincontainer .titulo1{
 height:100%;
 color: #5c6b73;
@@ -69,11 +70,81 @@ text-decoration: none;
 color: #264653;
 }
 
+/* footer definitivo */
+#footer{
+text-align: center;
+padding: 40px 0;
+background-color:#c2dfe3;
+}
+
+#footer .social{
+text-align: center;
+padding-bottom: 25px;
+color: black;
+}
+    
+#footer .social a{
+font-size: 20px;
+color: #264653;
+border: 1px solid #264653;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin:0 8px;
+opacity: 0.75;
+}
+
+#footer .social a:hover{
+opacity: 0.9;
+}
+
+#footer ul li{
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 15px;
+line-height: 1.6;
+margin: auto;
+margin-bottom: 0;
+}
+
+#footer ul li a{
+color:inherit;
+text-decoration: none;
+opacity: 0.8;
+}
+
+#footer ul li {
+display: inline-block;
+padding: 0 15px;
+}
+
+#footer ul li a:hover{
+opacity: 1;
+}
+
+#footer .Copyright{
+margin-top: 15px;
+text-align: center;
+font-size: 13px;
+font-family: 'EB Garamond' serif;
+color: #264653;
+opacity: 0.8;
+}
+
 
 /* Estilos page Nosotros */
+.mainnosotros{
+margin-top: 90px;
+}
+
+
 .titulo2{
 font-size: 1.5rem;
-color: #264653;
+color: #89b0ae;
 margin-top: 4rem;
 margin-left: 0.5rem;
 }
@@ -85,7 +156,7 @@ color: gray;
 
 .titulo2B{
 font-size: 1.5rem;
-color: #264653;
+color: #89b0ae;
 margin-top: 5rem;
 margin-right: 0.5rem;
 align-items: end;
@@ -96,9 +167,9 @@ color:gray;
 margin-right: 0.5rem;
 }
 
-.container .row{
+/* .container .row{
 margin-top: 90px;
-}
+} */
 
 
 /* estilos de las imagenes page nosotros */
@@ -106,6 +177,7 @@ margin-top: 90px;
 width:100%;
 height: 300px;
 margin-bottom: 4rem;
+margin-top: 4rem;
 }
 #galerianosotros img:hover{
 border: 2px solid #c2dfe3;
@@ -133,7 +205,6 @@ margin-left: 20rem;
 }
 
 .textocoloracion{
-/* background-color:#9db4c0 ; */
 color:gray;
 margin-left: 14rem;
 }
@@ -197,108 +268,34 @@ margin-bottom: 3rem;
 
 
 
-
-
-
-
-
-
-
-/* footer definitivo */
-#footer{
-text-align: center;
-padding: 40px 0;
-background-color:#c2dfe3;
-}
-
-#footer .social{
-text-align: center;
-padding-bottom: 25px;
-color: black;
-}
-
-#footer .social a{
-font-size: 20px;
-color: #264653;
-border: 1px solid #264653;
-width: 40px;
-height: 40px;
-line-height: 38px;
-display: inline-block;
-text-align: center;
-border-radius: 50%;
-margin:0 8px;
-opacity: 0.75;
-}
-
-#footer .social a:hover{
-opacity: 0.9;
-}
-
-#footer ul li{
-margin-top: 0;
-padding: 0;
-list-style: none;
-font-size: 15px;
-line-height: 1.6;
-margin: auto;
-margin-bottom: 0;
-}
-
-#footer ul li a{
-color:inherit;
-text-decoration: none;
-opacity: 0.8;
-}
-
-#footer ul li {
-display: inline-block;
-padding: 0 15px;
-}
-
-#footer ul li a:hover{
-opacity: 1;
-}
-
-#footer .Copyright{
-margin-top: 15px;
-text-align: center;
-font-size: 13px;
-font-family: 'EB Garamond' serif;
-color: #264653;
-opacity: 0.8;
-}
-
-
-
-/* css productos */
+/* Estilos page productos */
 .sectionTienda{
-    margin-top: 40px;
+margin-top: 40px;
 }
 
 .tienda{
-    height:350px;
-    width: 200px;
-    /* border: 2px solid #c2dfe3; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+height:350px;
+width: 200px;
+/* border: 2px solid #c2dfe3; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
 }
 
 .imagenproducto{
-    width: 100%;
-    height: 50%;
+width: 100%;
+height: 50%;
 }
 
 .tiendacontainer1{
-    display: flex;
-    justify-content: space-around;
-    }
+display: flex;
+justify-content: space-around;
+}
 
 .tiendacontainer2{
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 .comprar{
 bottom:unset;
@@ -498,9 +495,6 @@ height: 100%;
 /* Responsive Design */
 @media (max-width:991px){
 
-body{
-background: #264653;
-}
 
 .contactUs{
 padding: 20px;
