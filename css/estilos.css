@@ -5,7 +5,7 @@ box-sizing: border-box;
 font-family: 'EB Garamond', serif;
 }
 
-/* Estilos index3 responsive*/
+/* Estilos index*/
 .navbar-brand img{
 width: auto;
 height: 10rem;
@@ -33,30 +33,6 @@ transition: all 0.3s ease-out; idea de jonmircha aplicando estilos a los enlaces
 */
 
 
-/* MEDIA QUERIES */
-/* Dispositivos pequeños (teléfonos horizontales, 576 px y más) */
-@media (min-width: 576px) {
-
-}
-
-/* Dispositivos medianos (tablets, 768 px y mas)  */
-@media (max-width: 768px){
-/* soyfooter{
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-} */
-}
-
-/* Dispositivos grandes (desktops, 992px y mas) */
-@media (min-width: 992px) {
-
-}
-
-/* Dispositivos extra grandes (1200px y mas) */
-@media (min-width:1200px) {
-
-}
 /* GALERIA DE IMAGENES INDEX */
 #galeria .col-lg-4{
 padding:25px;
@@ -78,9 +54,11 @@ color:black;
 
 .maincontainer .titulo1{
 height:100%;
-color: #555b6e;
+color: #5c6b73;
 padding-top: 25px;
+text-align: center;
 }
+
 
 .maincontainer .textoprincipal{
 font-size: 20px;
@@ -97,11 +75,11 @@ color: #264653;
 font-size: 1.5rem;
 color: #264653;
 margin-top: 4rem;
-margin-left: 3rem;
+margin-left: 0.5rem;
 }
 
 .textonosotros{
-margin-left: 3rem;
+margin-left: 0.5rem;
 color: gray;
 }
 
@@ -109,13 +87,13 @@ color: gray;
 font-size: 1.5rem;
 color: #264653;
 margin-top: 5rem;
-margin-right: 5rem;
+margin-right: 0.5rem;
 align-items: end;
 }
 
 .textonosotrosB{
 color:gray;
-margin-right: 5rem;
+margin-right: 0.5rem;
 }
 
 .container .row{
@@ -130,12 +108,100 @@ height: 300px;
 margin-bottom: 4rem;
 }
 #galerianosotros img:hover{
-border: 5px solid #c2dfe3;
+border: 2px solid #c2dfe3;
 }
 
 #imgnosotros img:hover{
-border: 5px solid #c2dfe3;
+border: 2px solid #c2dfe3;
 }
+
+/* Estilos page Servicios */
+.containerservicios .titulo1{
+height:100%;
+color: #5c6b73;
+padding: 40px;
+text-align: center;
+font-weight: 400;
+font-size: 2em;
+}
+
+.titulo2ss{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-left: 20rem;
+}
+
+.textocoloracion{
+/* background-color:#9db4c0 ; */
+color:gray;
+margin-left: 14rem;
+}
+
+.textocoloracion ul{
+list-style: none;
+}
+
+.titulo2Bss{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-top: 7rem;
+margin-right: 20rem;
+}
+
+.textobellezacapilar{
+color:gray;
+text-align: center;
+margin-right: 8rem;
+}
+
+.textobellezacapilar ul{
+list-style: none;
+}
+
+.titulo2Css{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-top:7rem;
+margin-left: 20rem;
+}
+
+.textopeinados{
+color:gray;
+margin-left: 14rem;
+}
+
+.textopeinados ul{
+list-style: none;
+}
+
+/* Estilos imagenes page servicios */
+#imgservicios1{
+padding-top: 3rem;
+padding-right: 10rem;
+}
+
+#imgservicios2{
+padding-top: 3rem;
+padding-left: 10rem;
+}
+
+#imgservicios3{
+padding-top: 3rem;
+padding-right: 10rem;
+margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* footer definitivo */
@@ -264,7 +330,7 @@ font-size: 2em;
 }
 
 .contactUs .title h2{
-color: #555b6e;
+color: #5c6b73;
 font-weight: 400;
 }
 
