@@ -263,50 +263,43 @@ margin-bottom: 3rem;
 }
 
 
-
-
-/* Estilos page productos */
-/* .sectionTienda{
-margin-top: 40px;
+/* EStilos Productos */
+.tituloproductos{
+    margin-top: 4rem;
+    margin-left: 12rem;
+font-size:1.5rem;
+color:#89b0ae
 }
 
-.tienda{
-height:350px;
-width: 200px; */
-/* border: 2px solid #c2dfe3; */
-/* display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-evenly;
+.textoproductos{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    color: #5c6b73;
 }
 
-.imagenproducto{
-width: 100%;
-height: 50%;
+.card-title{
+font-size: 1rem;
+color: #89b0ae;
+text-align: center;
 }
 
-.tiendacontainer1{
-display: flex;
-justify-content: space-around;
+.card-text{
+color: #5c6b73;
+font-size: 0.9em;
 }
 
-.tiendacontainer2{
-display: flex;
-justify-content: space-around;
-}
-.comprar{
-bottom:unset;
-background-color:#c2dfe3;
-padding: 10px;
-border:cadetblue 8px;
-font-size: 15px;
-color:black;
+.card{
+width: 18rem;
+border:1px solid #89b0ae;
+/* margin-top: 2rem;
+padding-bottom: 0px; */
 }
 
-/* cards */
-.cards .card1{
-margin-left: 80px;
-} */
+.cardtext{
+    font-size: 7px;
+}
 
 /* Estilos page Contacto */
 
@@ -559,41 +552,5 @@ padding: 0;
 } */
 
 
-/* EStilos Productos */
-.tituloproductos{
-    margin-top: 4rem;
-    margin-left: 12rem;
-font-size:1.5rem;
-color:#89b0ae
-}
 
-.textoproductos{
-    margin-top: 1rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 2rem;
-    color: #5c6b73;
-}
-
-.card-title{
-font-size: 1rem;
-color: #89b0ae;
-text-align: center;
-}
-
-.card-text{
-color: #5c6b73;
-font-size: 0.9em;
-}
-
-.card{
-width: 18rem;
-border:1px solid #89b0ae;
-/* margin-top: 2rem;
-padding-bottom: 0px; */
-}
-
-.cardtext{
-    font-size: 7px;
-}
 
