@@ -22,15 +22,14 @@ padding-left: 2rem;
 }
 
 
-/* mobile version */
 
-/* .nav-item:hover{
-background-color:#bee3db;
-}
-.nav-item {
-transition: all 0.3s ease-out; idea de jonmircha aplicando estilos a los enlaces en menu mobile
-}
-*/
+/* mobile version */
+@media (max-width: 991px) {
+    .navbar {
+        margin-bottom: 170px;
+
+    }
+  }
 
 
 /* GALERIA DE IMAGENES INDEX */
@@ -47,7 +46,7 @@ height:400px;
 border:3px solid #f7f7f7;
 }
 
-#galeria h2{
+#galeria .textoprincipal{
 text-decoration: none;
 color:black;
 }
@@ -55,7 +54,7 @@ color:black;
 
 .maincontainer .titulo1{
 height:100%;
-color: #5c6b73;
+color: #89b0ae;
 padding-top: 25px;
 text-align: center;
 }
@@ -152,6 +151,7 @@ margin-left: 0.5rem;
 .textonosotros{
 margin-left: 0.5rem;
 color: gray;
+
 }
 
 .titulo2B{
@@ -172,8 +172,8 @@ margin-right: 0.5rem;
 #galerianosotros img{
 width:100%;
 height: 300px;
-margin-bottom: 4rem;
-margin-top: 4rem;
+margin-bottom: 6rem;
+margin-top: 6rem;
 }
 #galerianosotros img:hover{
 border: 2px solid #c2dfe3;
@@ -182,16 +182,6 @@ border: 2px solid #c2dfe3;
 #imgnosotros img:hover{
 border: 2px solid #c2dfe3;
 }
-
-/* Estilos page Servicios */
-/* .container .titulo1{
-height:100%;
-color: #5c6b73;
-padding: 40px;
-text-align: center;
-font-weight: 400;
-font-size: 2em;
-} */
 
 .titulo2Coloracion{
 font-size: 1.5rem;
@@ -245,6 +235,41 @@ margin-left: 12rem;
 list-style: none;
 }
 
+
+/* mediaqueries */
+@media screen and (max-width: 991px) {
+    .textonosotros{
+        margin-bottom: 4rem;
+    }
+    .textonosotrosB {
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .titulo2 {
+        margin-top: 0rem;
+    }
+    .titulo2B{
+        margin-top: 0.5rem;
+    }
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1399px) {
+        .titulo2 {
+            margin-top: 1rem;
+        }
+
+        .titulo2B{
+            margin-top: 3rem;
+        }
+        }
+
+
+
+
 /* Estilos imagenes page servicios */
 #imgservicios1{
 padding-top: 7.5rem;
@@ -293,13 +318,28 @@ font-size: 0.9em;
 .card{
 width: 18rem;
 border:1px solid #89b0ae;
-/* margin-top: 2rem;
-padding-bottom: 0px; */
+margin-bottom: 3rem;
 }
 
 .cardtext{
     font-size: 7px;
 }
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #264653;
+    } 
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        margin-left: 5rem;
+        }
+    }
+    
 
 /* Estilos page Contacto */
 
@@ -317,7 +357,7 @@ font-size: 2em;
 }
 
 .contactUs .title h2{
-color: #5c6b73;
+color: #89b0ae;
 font-weight: 400;
 }
 
@@ -336,7 +376,9 @@ grid-area: map;
 .contact{
 padding: 40px;
 background-color: #c2dfe3;
+border-radius: 12px;
 }
+
 
 .box{
 position: relative;
@@ -351,6 +393,7 @@ margin-top: 20px;
 }
 
 /* Form */
+
 .formBox{
 position: relative;
 width: 100%;
@@ -360,6 +403,7 @@ width: 100%;
 display: flex;
 gap: 20px;
 }
+
 
 .inputBox{
 display: flex;
@@ -376,29 +420,31 @@ width: 100%;
 color: #264653;
 margin-top: 10px;
 margin-bottom: 5px;
-font-weight: 500;
+font-weight: 400;
 }
 
 .inputBox input{
 padding: 10px;
 font-size: 1.1em;
 outline: none;
-border: 1px solid #555b6e;
+border: 1px solid #c2dfe3;
+border-radius: 10px;
 }
 
 .inputBox textarea{
 padding: 10px;
 font-size: 1.1em;
 outline: none;
-border: 1px solid #555b6e;
+border: 1px solid #c2dfe3;
+border-radius: 10px;
 resize: none;
 min-height: 220px;
 margin-bottom: 10px;
 }
 
 .inputBox input[type="submit"]{
-background: #9db4c0;
-color: #faf9f9;
+background: #faf9f9;
+color: #264653;
 border: none;
 font-size: 1.1em;
 max-width: 120px;
@@ -413,13 +459,12 @@ color:#9db4c0;
 
 /* info */
 .info{
-background:#9db4c0;
+background:#62929e;
 }
 
 .info h3{
-color: #264653;
-font-size: 20PX;
-
+color: #faf9f9;
+font-size: 20px;
 margin: 20px;
 }
 
@@ -480,10 +525,11 @@ padding: 0;
 .map iframe{
 width: 100%;
 height: 100%;
+border-radius: 12px;
 }
 
 /* Responsive Design */
-@media (max-width:991px){
+@media (max-width:1023px){
 
 
 .contactUs{
@@ -529,7 +575,13 @@ padding: 0;
 }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1192px) {
 
+    .contactUs {
+    padding-left: 5rem;
+    padding-right: 7rem;
+}
+}
 
 /* servicios ver responsive */
 /* .containerservicios {
