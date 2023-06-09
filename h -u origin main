@@ -1,0 +1,131 @@
+[33mcommit d309c8212be5a62d2bcdc706cafc03c528b46d4c[m[33m ([m[1;36mHEAD -> [m[1;32mMain[m[33m)[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Fri Jun 9 18:29:17 2023 -0300
+
+    Cambios responsive y animaciones
+
+[33mcommit 1eb1b662ae2171c12b7bfa9990e361512ff03d16[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Sun Jun 4 05:15:48 2023 -0300
+
+    correcciones y mq
+
+[33mcommit a6db818de1bafdda65e0468f1d78273fdf9b9649[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Sat Jun 3 22:16:09 2023 -0300
+
+    cambios en las rutas
+
+[33mcommit 10138649f6689cd89f073d343a08f6dd876805c5[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Sat Jun 3 22:13:26 2023 -0300
+
+    cambios en las rutas
+
+[33mcommit f64e18b60ca0ddb33064642f6f6bfbf50b552595[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Sat Jun 3 21:41:03 2023 -0300
+
+    cambios en rutas
+
+[33mcommit 48497a2674a9037be719eb29b690bb59337ef01f[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Tue May 30 03:51:02 2023 -0300
+
+    agrego carpeta css correcta
+
+[33mcommit 7acf86d95185e69a8fbaeb1aa12bc36219cd333d[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Tue May 30 01:39:00 2023 -0300
+
+    cree carpetas
+
+[33mcommit e21cb5251e1d73351ed536e899f875f311af3c77[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Thu May 25 17:28:32 2023 -0300
+
+    ordene estilos
+
+[33mcommit dbbc24a2de8a5a836cace6e44de1e2b43e3d52d9[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Thu May 25 17:15:15 2023 -0300
+
+    Modificacion de page Productos
+
+[33mcommit 4149cb5b014482795469448c10bcf90a5ede9a21[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Thu May 25 02:51:34 2023 -0300
+
+    modificacion de formulario
+
+[33mcommit 488a0c65bfa9938fb845ad367fb1dace38f5d9ad[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 22:57:07 2023 -0300
+
+    arreglo colores titulos
+
+[33mcommit 8681146a9577d0bb158608c9e9e489ae74731bb1[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 22:06:19 2023 -0300
+
+    modificacion de page servicios, arreglo de estilos
+
+[33mcommit a494466474c6ae1546711182bacc6a51d7c0d271[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 16:14:16 2023 -0300
+
+    arreglo links
+
+[33mcommit 3cc1f44ec07447e294ed43de82dc4dcedb7f560c[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 15:59:57 2023 -0300
+
+    arreglo de links en head
+
+[33mcommit c825eb67f5626b9606612d62b9b85c702d1d4d8e[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 15:57:56 2023 -0300
+
+    incorporacion de links en head y arreglo de links
+
+[33mcommit 877dc290b3e2c34d0fe822e844d87bda5325c090[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 15:33:02 2023 -0300
+
+    nuevo nombre index
+
+[33mcommit c20626820e6050c437e0fa7783121df5db189473[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 14:37:47 2023 -0300
+
+    elimine index viejo
+
+[33mcommit c527611c245519bf318c43368a7c6ab5a6ccdeff[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Wed May 24 14:11:26 2023 -0300
+
+    cambios clase a, error resuelto
+
+[33mcommit 07bccff8ae6f8217472d265eff676d7065ebba2a[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Tue May 23 23:41:58 2023 -0300
+
+    implementacion de nuevo footer, contacto
+
+[33mcommit 2f01394da94d31738497dd47ac9b077ff910dd65[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Sun May 21 18:31:07 2023 -0300
+
+    implementacion de nuevo footery cambio en galeria
+
+[33mcommit fb577b8c7179543fab2be35d12bd076f2e7ae107[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Fri May 19 23:18:30 2023 -0300
+
+    nuevo index
+
+[33mcommit b3b444b4dba8ddb65e7e56d1da9285b6aa529b79[m
+Author: Nara Braceiro <narabraceiro@gmail.com>
+Date:   Fri May 19 22:37:28 2023 -0300
+
+    primeros cambios
