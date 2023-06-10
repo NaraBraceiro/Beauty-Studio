@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+}
+
+header nav {
+  background-color: #c2dfe3;
+}
+header nav div a img {
+  width: auto;
+  height: 10rem;
+  margin-left: 3rem;
+}
+header nav div ul li {
+  padding-left: 2rem;
+}
+header nav div ul li:hover {
+  font-size: 1.1rem;
+  font-style: bold;
+}
+
+main div h1 {
+  height: 100%;
+  color: #89b0ae;
+  padding-top: 25px;
+  text-align: center;
+  animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main div h2 {
+  font-size: 20px;
+  color: gray;
+}
+main div p button {
+  text-decoration: none;
+  color: #264653;
+  animation: blink-1 1s both;
+}
+@keyframes blink-1 {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+section div {
+  margin-bottom: 1.5rem;
+}
+section div div {
+  padding: 1rem;
+}
+section div div img {
+  width: 100%;
+  height: 400px;
+}
+section div div img:hover {
+  border: 3px solid #f7f7f7;
+}
+
+#footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: black;
+}
+
+#footer .social a {
+  font-size: 20px;
+  color: #264653;
+  border: 1px solid #264653;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+  transition: 0.5s;
+}
+
+#footer .social a:hover {
+  opacity: 0.9;
+  transform: translateY(-10px);
+}
+
+footer div ul li {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: auto;
+  margin-bottom: 0;
+  display: inline-block;
+  padding: 0 15px;
+}
+footer div ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer div ul li a:hover {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #c2dfe3;
+}
+footer p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "EB Garamond" serif;
+  color: #264653;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=styles.css.map */
