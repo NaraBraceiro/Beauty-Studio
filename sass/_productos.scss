@@ -1,0 +1,79 @@
+.tituloproductos{
+    margin-top: 4rem;
+    margin-left: 12rem;
+    font-size:1.5rem;
+    color:#89b0ae;
+    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    
+    @keyframes tracking-in-expand {
+        0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+        }
+        40% {
+        opacity: 0.6;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    
+    
+.textoproductos{
+margin-top: 1rem;
+margin-left: 6rem;
+margin-right: 6rem;
+margin-bottom: 2rem;
+color: #5c6b73;
+}
+    
+
+.card-title {
+    font-size: 1rem;
+    color: #89b0ae;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #5c6b73;
+    font-size: 0.9em;
+  }
+  
+  .card {
+    width: 18rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #264653;
+  }
+  
+
+
+
+
+
+    
+    @media screen and (max-width:768px){
+        .tituloproductos{
+            margin-left: 6rem;
+        }
+        .card{
+            margin:2rem auto 2rem auto;
+            
+        }
+    }
+    
+    
+    
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        .card {
+            margin-left: 5rem;
+            }
+        }
+
