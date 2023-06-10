@@ -1,0 +1,753 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'EB Garamond', serif;
+}
+
+/* Estilos index*/
+.navbar-brand img{
+width: auto;
+height: 10rem;
+margin-left: 3rem;
+}
+
+.navbar{
+background-color: #c2dfe3;
+}
+
+.nav-item{
+padding-left: 2rem;
+}
+
+.nav-item a:hover{
+font-size: 1.1rem;
+font-style: bold;
+}
+
+
+
+
+/* GALERIA INDEX */
+#galeria .col-lg-4{
+padding:1.6rem;
+}
+
+#galeria img{
+width:100%;
+height:400px;
+}
+
+#galeria img:hover{
+border:3px solid #f7f7f7;
+}
+
+#galeria .textoprincipal{
+text-decoration: none;
+color:black;
+}
+
+
+.maincontainer .titulo1{
+height:100%;
+color: #89b0ae;
+padding-top: 25px;
+text-align: center;
+animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+
+
+.maincontainer .textoprincipal{
+font-size: 20px;
+}
+
+.maincontainer button {
+text-decoration: none;
+color: #264653;
+animation: blink-1 1s both;
+}
+
+@keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+    opacity: 1;
+    }
+    25%,
+    75% {
+    opacity: 0;
+    }
+}
+
+
+/* footer definitivo */
+#footer{
+text-align: center;
+padding: 40px 0;
+background-color:#c2dfe3;
+}
+
+#footer .social{
+text-align: center;
+padding-bottom: 25px;
+color: black;
+}
+    
+#footer .social a{
+font-size: 20px;
+color: #264653;
+border: 1px solid #264653;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin:0 8px;
+opacity: 0.75;
+transition: 0.5s;
+}
+
+#footer .social a:hover{
+opacity: 0.9;
+transform: translateY(-10px);
+
+}
+
+#footer ul li{
+margin-top: 0;
+padding: 0;
+list-style: none;
+font-size: 15px;
+line-height: 1.6;
+margin: auto;
+margin-bottom: 0;
+}
+
+#footer ul li a{
+color:inherit;
+text-decoration: none;
+opacity: 0.8;
+}
+
+#footer ul li {
+display: inline-block;
+padding: 0 15px;
+}
+
+#footer ul li a:hover{
+opacity: 1;
+}
+
+#footer .Copyright{
+margin-top: 15px;
+text-align: center;
+font-size: 13px;
+font-family: 'EB Garamond' serif;
+color: #264653;
+opacity: 0.8;
+}
+
+
+/* Estilos page Nosotros */
+.mainnosotros{
+margin-top: 90px;
+}
+
+
+.titulo2{
+font-size: 1.5rem;
+color: #89b0ae;
+margin-top: 4rem;
+margin-left: 0.5rem;
+animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+.textonosotros{
+margin-left: 0.5rem;
+color: gray;
+
+}
+
+.titulo2B{
+font-size: 1.5rem;
+color: #89b0ae;
+margin-top: 7rem;
+margin-right: 0.5rem;
+align-items: end;
+animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.textonosotrosB{
+color:gray;
+margin-right: 0.5rem;
+}
+
+
+/* estilos de las imagenes page nosotros */
+#galerianosotros img{
+width:100%;
+height: 300px;
+margin-bottom: 4rem;
+margin-top: 4rem;
+}
+
+#galerianosotros img:hover{
+border: 3px solid #f7f7f7;
+}
+
+#imgnosotros{
+animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-center {
+    0% {
+    transform: scale(0);
+    opacity: 1;
+    }
+    100% {
+    transform: scale(1);
+    opacity: 1;
+    }
+}
+
+
+.titulo2Coloracion{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-top: 4rem;
+margin-left: 18rem;
+}
+
+
+
+.textocoloracion{
+color:gray;
+margin-left: 10rem;
+}
+
+.textocoloracion ul{
+list-style: none;
+}
+
+.titulo2Belleza{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-top: 4rem;
+margin-right: 15rem;
+}
+
+.textobellezacapilar{
+color:gray;
+text-align: center;
+margin-right: 5rem;
+}
+
+.textobellezacapilar ul{
+list-style: none;
+}
+
+.titulo2Peinados{
+font-size: 1.5rem;
+color: #89b0ae;
+font-style: bold;
+margin-top:5rem;
+margin-left: 20rem;
+}
+
+.textopeinados{
+color:gray;
+margin-left: 12rem;
+}
+
+.textopeinados ul{
+list-style: none;
+}
+
+
+/* Mediaqueries Nosotros*/
+
+@media screen and (max-width: 991px) {
+    .titulo2{
+    margin-top: 0.1rem;
+    }
+    .textonosotros{
+    margin-bottom: 3rem;
+    }
+
+    .titulo2B{
+    margin-top: 3rem;
+    }
+    .textonosotrosB {
+    margin-bottom: 4rem;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .titulo2 {
+    margin-top: 0rem;
+    }
+    
+    .titulo2B{
+    margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .titulo2 {
+    margin-top: 1rem;
+    }
+
+    .titulo2B{
+    margin-top: 3rem;
+    }
+}
+
+/* Estilos page servicios */
+
+.cardServicios{
+margin: auto;
+margin-top: 4rem;
+margin-bottom: 4rem;
+width: 30rem;
+}
+
+.card-titleServicios{
+color:#89b0ae;
+text-align: center;
+margin-top: 3rem;
+margin-bottom: 2rem;
+}
+
+.list-group-item{
+color:gray;
+}
+
+.card-titleServicios{
+animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract
+ * ----------------------------------------
+ */
+ @keyframes tracking-in-contract {
+    0% {
+    letter-spacing: 1em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    letter-spacing: normal;
+    opacity: 1;
+    }
+}
+
+
+
+.cardServicios img{
+animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes scale-up-center {
+    0% {
+    transform: scale(0.5);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos Productos */
+.tituloproductos{
+margin-top: 4rem;
+margin-left: 12rem;
+font-size:1.5rem;
+color:#89b0ae;
+animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+.textoproductos{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    color: #5c6b73;
+}
+
+.card-title{
+font-size: 1rem;
+color: #89b0ae;
+text-align: center;
+}
+
+.card-text{
+color: #5c6b73;
+font-size: 0.9em;
+}
+
+.card{
+width: 18rem;
+/* border:1px solid gray; */
+margin-bottom: 3rem;
+}
+
+.cardtext{
+    font-size: 7px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #264653;
+    } 
+
+@media screen and (max-width:768px){
+    .tituloproductos{
+        margin-left: 6rem;
+    }
+    .card{
+        margin:2rem auto 2rem auto;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        margin-left: 5rem;
+        }
+    }
+    
+
+/* Estilos page Contacto */
+
+.contactUs{
+position: relative;
+width: 100%;
+padding: 40px 100px;
+}
+
+.contactUs .title{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+
+.contactUs .title h2{
+color: #89b0ae;
+font-size:1.5rem;
+animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+
+
+
+.form{
+grid-area: form;
+}
+
+.info{
+grid-area: info;
+}
+
+.map{
+grid-area: map;
+}
+
+.contact{
+padding: 40px;
+background-color: #c2dfe3;
+border-radius: 12px;
+}
+
+
+.box{
+position: relative;
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 5fr 4fr;
+grid-template-areas: 
+"form info"
+"form map";
+grid-gap: 20px;
+margin-top: 20px;
+}
+
+/* Form */
+
+.formBox{
+position: relative;
+width: 100%;
+}
+
+.formBox .row50{
+display: flex;
+gap: 20px;
+}
+
+
+.inputBox{
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+width: 50%;
+}
+
+.formBox .row100 .inputBox{
+width: 100%;
+}
+
+.inputBox span{
+color: #264653;
+margin-top: 10px;
+margin-bottom: 5px;
+font-weight: 400;
+}
+
+.inputBox input{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid #c2dfe3;
+border-radius: 10px;
+}
+
+.inputBox textarea{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 1px solid #c2dfe3;
+border-radius: 10px;
+resize: none;
+min-height: 220px;
+margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]{
+background: #faf9f9;
+color: #264653;
+border: none;
+font-size: 1.1em;
+max-width: 120px;
+font-weight: 500;
+cursor: pointer;
+padding: 14px 15px;
+}
+
+.inputBox ::placeholder{
+color:#9db4c0;
+}
+
+/* info */
+.info{
+background:#62929e;
+}
+
+.info h3{
+color: #faf9f9;
+font-size: 20px;
+margin: 20px;
+}
+
+.info .infoBox div{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.info .infoBox div span{
+min-width:40px;
+height: 40px;
+color: gray;
+background: #faf9f9;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+border-radius: 50%;
+margin-right: 15px;
+}
+
+.info .infoBox div p {
+color: #fff;
+font-size: 1em;
+}
+
+.info .infoBox div a {
+color: #fff;
+text-decoration: none;
+font-size: 1em;
+}
+
+.sci{
+margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.sci li{
+list-style: none;
+margin-right: 15px;
+}
+
+.sci li a {
+color: #fff;
+font-size: 2em;
+}
+
+.sci li a:hover{
+color: #ccc;
+}
+
+.map {
+padding: 0;
+}
+
+.map iframe{
+width: 100%;
+height: 100%;
+border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width:1023px){
+
+
+.contactUs{
+padding: 20px;
+}
+
+.box{
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+grid-template-areas: 
+"form"
+"info"
+"map";
+}
+
+.map{
+min-height: 300px;
+}
+
+.formBox .row50{
+display: flex;
+gap:0;
+flex-direction: column;
+}
+
+.inputBox{
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+}
+
+.inputBox{
+width: 100%;
+}
+
+.contact{
+padding: 30px;
+}
+
+.map{
+min-height: 300px;
+padding: 0;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1192px) {
+
+    .contactUs {
+    padding-left: 5rem;
+    padding-right: 7rem;
+}
+}
+
