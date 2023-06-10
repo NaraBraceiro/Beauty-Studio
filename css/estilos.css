@@ -20,6 +20,11 @@ background-color: #c2dfe3;
 padding-left: 2rem;
 }
 
+.nav-item a:hover{
+font-size: 1.1rem;
+font-style: bold;
+}
+
 
 
 
