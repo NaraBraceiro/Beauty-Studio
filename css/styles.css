@@ -301,15 +301,15 @@ div section article img {
   margin-top: 4rem;
 }
 
-#galleryUs img:hover {
+section div div img :hover {
   border: 3px solid #f7f7f7;
 }
 
 @media screen and (max-width: 991px) {
-  .title2 {
+  main div section article h2 {
     margin-top: 0.1rem;
   }
-  .textUs {
+  main div section article p {
     margin-bottom: 3rem;
   }
   .title2B {
@@ -494,6 +494,11 @@ div section article img {
   color: #264653;
 }
 
+.price {
+  text-align: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
   .tituloproductos {
     margin-left: 6rem;
@@ -571,7 +576,7 @@ div section article img {
   animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-.tituloform {
+.titleform {
   font-size: 1.25rem;
   color: #264653;
   margin-left: 1rem;
