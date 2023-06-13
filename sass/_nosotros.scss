@@ -1,6 +1,10 @@
-.mainnosotros{
-    margin-top: 90px;
-    }
+@import "var";
+@import "./utilities.scss/Mixins";
+
+
+.mainUs{
+margin-top: 5rem;
+}
 
 main{
 
@@ -8,46 +12,33 @@ main{
         section{
             article{
                 h2{
-                    font-size: 1.5rem;
-                    color: #89b0ae;
+                    font: size $size_h2;;
+                    color: $color-principal-title;
                     margin-top: 4rem;
                     margin-left: 0.5rem;
-                    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                    @include tracking-in-expand(2s, cubic-bezier(0.215, 0.610, 0.355, 1.000));
                 }
-
-                @keyframes tracking-in-expand {
-                    0% {
-                    letter-spacing: -0.5em;
-                    opacity: 0;
-                    }
-                    40% {
-                    opacity: 0.6;
-                    }
-                    100% {
-                    opacity: 1;
-                    }
-                }
-
+                
                 p{
                 margin-left: 0.5rem;
-                color: gray;
+                color: $color-text;
                 }
             }
         }
     }
 }
 
-.titulo2B{
-    font-size: 1.5rem;
-    color: #89b0ae;
+.title2B{
+    font-size:$size_h2;
+    color: $color-principal-title;
     margin-top: 7rem;
     margin-right: 0.5rem;
     align-items: end;
-    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    @include tracking-in-expand(2s, cubic-bezier(0.215, 0.610, 0.355, 1.000));
     }
     
-    .textonosotrosB{
-    color:gray;
+    .textUsB{
+    color:$color-text;
     margin-right: 0.5rem;
     }
 
@@ -74,31 +65,31 @@ div{
     }
 }
 
-#galerianosotros img{
+#galleryUs img{
     width:100%;
     height: 300px;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     margin-top: 4rem;
     }
     
-    #galerianosotros img:hover{
-    border: 3px solid #f7f7f7;
+    #galleryUs img:hover{
+    border: 3px solid $color-alternative;
     }
 
     // mediaqueries
 
     @media screen and (max-width: 991px) {
-        .titulo2{
+        .title2{
         margin-top: 0.1rem;
         }
-        .textonosotros{
+        .textUs{
         margin-bottom: 3rem;
         }
     
-        .titulo2B{
+        .title2B{
         margin-top: 3rem;
         }
-        .textonosotrosB {
+        .textUsB {
         margin-bottom: 4rem;
         }
     
@@ -106,21 +97,21 @@ div{
     
     
     @media screen and (min-width: 992px) and (max-width: 1199px) {
-        .titulo2 {
+        .title2 {
         margin-top: 0rem;
         }
         
-        .titulo2B{
+        .title2B{
         margin-top: 0.5rem;
         }
     }
     
     @media screen and (min-width: 1200px) and (max-width: 1399px) {
-        .titulo2 {
+        .title2 {
         margin-top: 1rem;
         }
     
-        .titulo2B{
+        .title2B{
         margin-top: 3rem;
         }
     }

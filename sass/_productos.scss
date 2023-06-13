@@ -1,31 +1,24 @@
+@import "var";
+@import "./utilities.scss/Mixins";
+
+
+
 .tituloproductos{
     margin-top: 4rem;
     margin-left: 12rem;
-    font-size:1.5rem;
-    color:#89b0ae;
-    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    font-size:$size_2;
+    color:$color-principal-title;
+    @include tracking-in-expand(2s, cubic-bezier(0.215, 0.610, 0.355, 1.000));
     }
     
-    @keyframes tracking-in-expand {
-        0% {
-        letter-spacing: -0.5em;
-        opacity: 0;
-        }
-        40% {
-        opacity: 0.6;
-        }
-        100% {
-        opacity: 1;
-        }
-    }
     
     
 .textoproductos{
 margin-top: 1rem;
-margin-left: 6rem;
+margin-left: 7.5rem;
 margin-right: 6rem;
 margin-bottom: 2rem;
-color: #5c6b73;
+color: $color-text;
 }
     
 
@@ -36,8 +29,8 @@ color: #5c6b73;
   }
   
   .card-text {
-    color: #5c6b73;
-    font-size: 0.9em;
+    color: $color-text;
+    font-size:0.9rem;
   }
   
   .card {

@@ -1,48 +1,34 @@
+@import "var";
+@import "./utilities.scss/Mixins";
+
+
+
 .cardServicios{
-    margin: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    width: 30rem;
-    }
-    
+margin: auto;
+margin-top: 4rem;
+margin-bottom: 4rem;
+width: 30rem;
+}
+
 .card-titleServicios{
-    color:#89b0ae;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+color:$color-principal-title;
+text-align: center;
+margin-top: 3rem;
+margin-bottom: 2rem;
+@include tracking-in-contract(2s, cubic-bezier(0.215, 0.610, 0.355, 1.000));
 }
 
-
-@keyframes tracking-in-contract {
-    0% {
-    letter-spacing: 1em;
-    opacity: 0;
-    }
-    40% {
-    opacity: 0.6;
-    }
-    100% {
-    letter-spacing: normal;
-    opacity: 1;
-    }
-}
 
 .list-group-item{
-    color:gray;
+color:$color-text;
 }
 
+#card-center{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
 
 .cardServicios img{
-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-
-@keyframes scale-up-center {
-    0% {
-    transform: scale(0.5);
-    }
-    100% {
-    transform: scale(1);
-    }
+@include scale-up-center(1s, cubic-bezier(0.390, 0.575, 0.565, 1.000));
 }

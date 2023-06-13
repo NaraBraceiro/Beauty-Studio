@@ -1,13 +1,17 @@
+@import "var";
+
+
+
 #footer .social{
 text-align: center;
 padding-bottom: 25px;
-color: black;
+color: $color-secondary;
 }
 
 #footer .social a{
-font-size: 20px;
-color: #264653;
-border: 1px solid #264653;
+font-size:$size_bigtext;
+color: $color-secondary;
+border: 1px solid $color-secondary;
 width: 40px;
 height: 40px;
 line-height: 38px;
@@ -33,7 +37,7 @@ footer{
             margin-top: 0;
             padding: 0;
             list-style: none;
-            font-size: 15px;
+            font-size: $size_mediumtext;
             line-height: 1.6;
             margin: auto;
             margin-bottom: 0;
@@ -57,14 +61,14 @@ footer{
 footer{
     text-align: center;
     padding: 40px 0;
-    background-color:#c2dfe3;
+    background-color: $color-primary;
 
     p{
     margin-top: 15px;
     text-align: center;
-    font-size: 13px;
+    font-size: $size_smallertext;
     font-family: 'EB Garamond' serif;
-    color: #264653;
+    color:$color-secondary;
     opacity: 0.8;
     }
 }

@@ -1,3 +1,5 @@
+@use "../sass/var";
+@use "./utilities.scss/Mixins";
 @use "../sass/base/reset.scss";
 @use "./navbar.scss";
 @use "./index";
@@ -5,6 +7,9 @@
 @use "./nosotros";
 @use "./servicios";
 @use "./productos";
+@use "./contacto";
+
+
 
 
 

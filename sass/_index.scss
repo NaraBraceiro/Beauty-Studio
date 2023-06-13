@@ -1,37 +1,29 @@
+@import "var";
+@import "./utilities.scss/Mixins";
+
+
 main{
     div{
         h1{
             height:100%;
-            color: #89b0ae;
+            color: $color-principal-title;
             padding-top: 25px;
             text-align: center;
-            animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            @include animation-index(3s, cubic-bezier(0.215, 0.610, 0.355, 1.000));
         }
-
-        @keyframes tracking-in-expand {
-            0% {
-            letter-spacing: -0.5em;
-            opacity: 0;
-            }
-            40% {
-            opacity: 0.6;
-            }
-            100% {
-            opacity: 1;
-            }
-        }
+        
     }
 
     div{
         h2{
-            font-size: 20px;
-            color:gray;
+            font-size: $size_h2;
+            color:$color-text;
         }
 
         p{
             button{
                 text-decoration: none;
-                color: #264653;
+                color: $color-secondary;
                 animation: blink-1 1s both;
             }
 
@@ -54,17 +46,16 @@ main{
 
 section{
     div{
-        margin-bottom: 1.5rem;
         
         div{
-            padding: 1rem;
             
             img{
                 width:100%;
                 height:400px;
+                margin-bottom: 4rem;
 
                 &:hover{
-                    border:3px solid #f7f7f7;
+                    border:3px solid $color-alternative;
                 }
             }
         }
