@@ -83,18 +83,40 @@ section{
 }
 
 
-// #galleryUs img{
-//     width:100%;
-//     height: 300px;
-//     margin-bottom: 4rem;
-//     margin-top: 4rem;
-//     }
-    
-//     #galleryUs img:hover{
-//     border: 3px solid $color-alternative;
-//     }
+
 
     // mediaqueries
+
+    @media  screen and (max-width: 576px) {
+        main{
+            div{
+                section{
+                    article{
+                        h2{
+                            margin: 2rem;
+                        }
+
+                        p{
+                            margin-left: 2rem;
+                            margin-right: 2rem ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .title2B {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .textUsB{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+
 
     @media screen and (max-width: 991px) {
 
@@ -135,7 +157,6 @@ main{
     margin-top: 0.5rem;
     }
 }
-
 
 
     

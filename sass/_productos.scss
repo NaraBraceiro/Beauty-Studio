@@ -3,7 +3,7 @@
 
 
 
-.tituloproductos{
+.titleProductos{
   margin-top: 4rem;
   margin-left: 12rem;
   font-size:$size_2;
@@ -13,7 +13,7 @@
 
   
   
-  .textoproductos{
+  .textProductos{
   margin-top: 1rem;
   margin-left: 7.5rem;
   margin-right: 6rem;
@@ -53,8 +53,13 @@
   }
 
   @media screen and (max-width:768px){
-    .tituloproductos{
-    margin-left: 6rem;
+    .titleProductos{
+    margin-left: 3rem;
+    }
+
+    .textProductos{
+      margin-left: 3rem;
+      margin-right: 3rem;
     }
 
     .card{
@@ -63,6 +68,22 @@
     }
 }
     
+    @media only screen and (min-width: 769px) and (max-width: 991px) {
+      .titleProductos{
+        margin-left: 5rem;
+      }
+
+      .textProductos{
+        margin-left: 5rem;
+        margin-right: 5rem;
+      }
+
+      .card{
+        margin:auto;
+        margin-bottom: 2rem;
+      }
+}
+
     
     
   @media screen and (min-width: 992px) and (max-width: 1199px) {
