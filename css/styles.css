@@ -436,6 +436,7 @@ section div div img :hover {
 @media screen and (max-width: 480px) {
   .cardServicios {
     margin: 2rem auto;
+    width: 22rem;
   }
 }
 @keyframes tracking-in-contract {
